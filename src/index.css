@@ -2,21 +2,50 @@
   font-family: Helvetica;
 }
 
+/* Main Container */
 .App{
   width: 1000px;
   margin: 0 auto;
 }
 
+/* Columns on main container */
 .col{
   display: inline-block;
   width: calc(100%/3);
 }
 
+/* Shoe Container */
 .container{
   position: relative;
   width: 300px;
 }
 
+/* Heart-Like Button */
+.like-button{
+  background-color: lightgrey;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto 0;
+  position: absolute;
+  right: 20px;
+}
+
+.heart{
+  color: grey;
+  font-size: 20px;
+}
+
+/* Shoe Image Dimensions */
+.show-image{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 0px;
+  object-fit: cover;
+}
+
+/* Deals and Eco */
 .promotions{
   font-size: 12px;
   color: white;
@@ -40,28 +69,7 @@
   width: auto;
 }
 
-.heart{
-  color: grey;
-  font-size: 20px;
-}
-.like-button{
-  background-color: lightgrey;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  text-align: center;
-  margin: auto 0;
-  position: absolute;
-  right: 20px;
-}
-
-.show-image{
-  width: 300px;
-  height: 300px;
-  margin-bottom: 0px;
-  object-fit: cover;
-}
-
+/* Shoe Information */
 .information > * {
   font-weight: 700;
   margin: 0px 0px;
@@ -71,10 +79,10 @@
   display: inline;
 }
 
-.regular-price{
-  text-decoration: line-through;
-}
-
 .deal-price{
   color:red
+}
+
+.regular-price{
+  text-decoration: line-through;
 }

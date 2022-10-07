@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* 4 Craighouse Shoes */}
+      {/* 1 Col - Craighouse Shoes */}
       <div className='col'>
         <div className='container'>
           <div className='like-button'>
@@ -41,7 +41,7 @@ function App() {
       </div>
  
 
-      {/* 2 Battle Shoes */}
+      {/* 2 Col - Battle Shoes */}
       <div className='col'>
         <div className='container'>
           <div className='like-button'>
@@ -62,7 +62,7 @@ function App() {
       </div>
 
       
-      {/* 1 Bailey Shoes */}
+      {/* 3 Col - Bailey Shoes */}
       <div className='col'>
         <div className='container'>
           <div className='like-button'>
@@ -83,7 +83,7 @@ function App() {
       </div>
   
 
-      {/* 3 Cedar Shoes */}
+      {/* 1 Col - Cedar Shoes */}
       <div className='col'>
         <div className='container'>
           <div className='like-button'>
@@ -103,7 +103,7 @@ function App() {
         </div>
       </div>
 
-      {/* 6 Marley Shoes */}
+      {/* 2 Col - Marley Shoes */}
       <div className='col'>
         <div className='container'>
           <div className='like-button'>
@@ -123,25 +123,25 @@ function App() {
         </div>
       </div>
 
-      {/* 5 Dylan Shoes */}
+      {/* 3 Col - Dylan Shoes */}
       <div className='col'>
-      <div className='container'>
-        <div className='like-button'>
-          <span className='heart'>&hearts;</span>
-        </div>
-        <img className='show-image' 
-          src={dylan_side} 
-          onMouseOver={e => (e.currentTarget.src = dylan_oh)} 
-          onMouseOut={e => (e.currentTarget.src = dylan_side)}
-          alt='shoes'/>
-        <p className='promotions'><span className='deal'>-50%</span><span className='eco'>Eco Sostenible</span></p>
-        <div className='information'>
-          <p>Hudson London</p>
-          <h2>DYLAN DRUM</h2>
-          <p><span className='deal-price'>240,00$</span> <span className='regular-price'>220,00$</span></p>
+        <div className='container'>
+          <div className='like-button'>
+            <span className='heart'>&hearts;</span>
+          </div>
+          <img className='show-image' 
+            src={dylan_side} 
+            onMouseOver={e => (e.currentTarget.src = dylan_oh)} 
+            onMouseOut={e => (e.currentTarget.src = dylan_side)}
+            alt='shoes'/>
+          <p className='promotions'><span className='deal'>-50%</span><span className='eco'>Eco Sostenible</span></p>
+          <div className='information'>
+            <p>Hudson London</p>
+            <h2>DYLAN DRUM</h2>
+            <p><span className='deal-price'>240,00$</span> <span className='regular-price'>220,00$</span></p>
+          </div>
         </div>
       </div>
-    </div>
     </div>
 
   );
