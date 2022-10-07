@@ -7,12 +7,28 @@
   position: relative;
 }
 
-.deal{
-  background-color: red;
+.promotions{
+  font-size: 12px;
   color: white;
-  width: 50px;
   margin: 0px 0px 20px 0px;
+}
+
+.promotions > *{
+  margin-right: 3px;
+}
+
+.deal{
+  
+  background-color: red;
+  padding: 4px 4px;
   text-align: center;
+  width: auto;
+}
+.eco{
+  background-color: green;
+  padding: 4px 4px;
+  text-align: center;
+  width: auto;
 }
 
 .heart{
