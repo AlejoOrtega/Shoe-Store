@@ -7,10 +7,14 @@
   margin: 0 auto;
 }
 
+.col{
+  display: inline-block;
+  width: calc(100%/3);
+}
+
 .container{
   position: relative;
-  display: inline-block;
-  margin: 15px;
+  width: 300px;
 }
 
 .promotions{
@@ -24,7 +28,6 @@
 }
 
 .deal{
-  
   background-color: red;
   padding: 4px 4px;
   text-align: center;
@@ -49,7 +52,7 @@
   text-align: center;
   margin: auto 0;
   position: absolute;
-  right: 0px;
+  right: 20px;
 }
 
 .show-image{
