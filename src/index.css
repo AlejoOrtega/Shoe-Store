@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: Helvetica;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  display: inline-block;
+  position: relative;
+}
+
+.deal{
+  background-color: red;
+  color: white;
+  width: 50px;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+.heart{
+  color: grey;
+  font-size: 20px;
+}
+.like-button{
+  background-color: lightgrey;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto 0;
+  position: absolute;
+  right: 0px;
+}
+
+.show-image{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 0px;
+  object-fit: cover;
+}
+
+.information > * {
+  font-weight: 700;
+  margin: 0px 0px;
+}
+
+.regular-price{
+  text-decoration: line-through;
+}
+
+.deal-price{
+  color:red
 }
